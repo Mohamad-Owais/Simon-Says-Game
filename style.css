@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+h6{
+    color: #ffffff;
+    position: absolute;
+    top:0;
+}
+h1,h3{
+    color: rgb(255, 255, 255);
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 5px solid rgba(255, 255, 255, 0.192);
+    margin: 15px;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background: rgb(255, 219, 57);
+}
+.red{
+    background-color: rgb(243, 79, 79);
+}
+.green{
+    background-color: rgb(2, 164, 78);
+}
+.blue{
+    background-color: rgb(60, 60, 255);
+}
+.gameflash{
+    background-color: #ffffff;
+}
+.userflash{
+    background-color:rgb(0, 255, 0);
+}
