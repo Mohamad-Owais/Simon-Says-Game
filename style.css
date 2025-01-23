@@ -9,6 +9,12 @@ h6{
     position: absolute;
     top:0;
 }
+h2{
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
 h1,h3{
     color: rgb(255, 255, 255);
 }

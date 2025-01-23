@@ -1,6 +1,7 @@
 let gameSeq=[];
 let userseq=[];
 let btns=["red","yellow","green","blue"]
+let highscore=0;
 
 let started=false;
 let level=0;
@@ -69,6 +70,10 @@ let all_btns=document.querySelectorAll(".btn");
     }
 
 function resetGame() {
+    if(level>highscore){
+        highscore=level;
+        document.querySelector("#highscore").innerText=`High Score:${highscore}`;
+    }
     started=false;
     gameSeq=[];
     userseq=[];
