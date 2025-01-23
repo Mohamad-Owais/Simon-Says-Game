@@ -1,5 +1,4 @@
 # Simon Says Game
-
 A simple and interactive Simon Says game built with HTML, CSS, and JavaScript. The game tests your memory and pattern recognition skills by making you repeat an ever-growing sequence of button presses.
 
 # Features
